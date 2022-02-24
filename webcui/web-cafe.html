@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta charset="utf-8"/>
+      <title> Cafe Website</title>
+  </head>
+
+  <!-- 
+  <!Doctype  html> để khai báo rằng mình sẽ sử dụng html  mới nhất    
+    các thẻ h1 - h6 là những tiêu đề với kích thước nhỏ dần 
+    nên khi sử dụng nếu cùng kích thước ta có thể sử dụng 2 lần h2 hoặc 2 lần h1 or h3 
+    thẻ P không tự xuống dòng " có thể áp dụng thẻ <br> để xuống dòng "
+    thẻ pre có thể xuống dòng
+    thẻ span vẫn không tự xuống dòng
+style="background-color: darkblue ;color: white;text-align: center;"
+<meta charset="utf-8" là dùng để hổ trợ ngôn ngữ đối với  cả người nước ngoài
+-->
+
+  <body>
+    <div>
+      <h1
+        id="title"
+        style="background-color: darkblue; color: white; text-align: center"
+      >
+        Cybersoft Cafe
+      </h1>
+      <a href="https://www.starbucks.vn/" target="_blank"> Home </a>
+      <!-- _blank để lload tab mới -->
+      <a href="https://www.starbucks.vn/th%E1%BB%B1c-%C4%91%C6%A1n"> Menu </a>
+      <!-- không _blank thì để load tại chính trang đó  or  _self  -->
+      <a href="#"> Order </a>
+    </div>
+
+    <hr noshade size="5px" width="50%" />
+    <div>
+      <h2 style="color: burlywood; text-align: center">About Our Coffe</h2>
+      <pre style="text-align: right">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate vitae
+            similique asperiores deleniti dolor possimus? Voluptatem perferendis non
+            doloribus obcaecati sapiente nesciunt natus officiis illum! Quaerat tempore,
+            quod mollitia id sapiente impedit laudantium voluptate voluptates incidunt,
+            doloremque vel dicta deserunt?
+        </pre
+      >
+    </div>
+    <hr noshade size="5px" width="50%" />
+
+    <div style="background-color: pink">
+      <h2 style="color: burlywood; text-align: center">Special Items</h2>
+      <>
+        <h3>The Coffe List 1</h3>
+        <!-- type: square, circle, default 
+    ul là danh sách không có thứ tự 
+    ol danh sách có thứ tự
+    -->
+        <ul type="square" style="color: blue">
+          <li>Black Coffee</li>
+          <li>Blue Coffee</li>
+          <li>Green Coffee</li>
+        </ul>
+
+        <img
+          width="300px"
+          height="300px"
+          src="https://afamilycdn.com/zoom/640_400/2019/9/27/6a9c3a64-094e-4e22-a7c5-c73ce79ab328-15695545579961856205666-crop-1569554570973647109563.jpg"
+        />
+
+        <img
+          width="300px"
+          height="300px"
+          src="./img/cafe starbucks/ảnh ly cafe starbucks.jpg"
+        />
+      </div>
+      <div>
+        <h3>The coffee list 2</h3>
+
+        <!-- type: I,i,1 ,A, a  
+    ul là danh sách không có thứ tự 
+    ol danh sách có thứ tự
+    -->
+
+        <ol type="I" style="color: black">
+          <li>Black Coffee</li>
+          <li>Blue Coffee</li>
+          <li>Green Coffee</li>
+        </ol>
+        <img
+          width="400px"
+          height="400px"
+          src="https://www.dynamicgift.co.nz/media/catalog/product/cache/68a69e5fee594278a962490ff543e452/1/1/113791-0.jpg"
+        />
+      </div>
+    </div>
+
+    <hr noshade size="5px" width="50%" />
+    <h2 style="color: burlywood; text-align: center">Menu</h2>
+
+    <!--* HTML có 2 loại thẻ : thẻ bình thường, và thẻ khuyết đóng
+    * HTML có 2 loại định dạng thẻ: 
+       + inline : a . Width = content ( may chu home menu order chieu rong = chieu rong chu)
+       + block: h1, h2, p. Width = 100%
+    * Attribute :
+    của Hr là noshade là không cần đổ bóng mờ phía dưới voi size đơn vị là ...5px ( chiều cao )
+    còn width= px hoặc % 
+       + style: chỉnh định dạng cho thẻ: màu sắc, kích thước...
+       + href: chứa đường dẫn liên kết muốn đi tới va trong href target= _blank 
+       là để mở tab mới không cùng 1 tab cũ
+       <a href="#"> Order </a> la load lai trang do
+       + src: link hình
+    * Đường dẫn : tuyệt đối và tương đối
+    - tuyệt đối ( link ảnh lượm từ trên mạng về nó đúng với mọi website)
+    - tương đối : . ( dấu chấm là ám chỉ vị trí hiện tại )
+                    / (dấu / ám chỉ là đi vào cổng 1 thư mục nào đó)
+    * Nội dung buổi kế tiếp :HTML + CSS
+    liên kết có 4 loại liên kết " liên kết ngoại khi nhấn ra trang web ngoài"
+    loại 2 liên kết email,phone
+Tag table dùng để tạo bảng 
+<tr> là dùng để tạo dòng trong bảng 
+<th> tạo 1 ô tiêu đề , cột
+<td> tạo 1 ô con  của <tr>
+thẻ tb border kích thước các dòng
+<thead></thead> tieu  de 1
+    <tbody></tbody> noi dung 7 nd
+    tr*7 la  cach go~ nhanh
+colspan="2" giá trị số cột nó chiếm
+td là cột
+border="1px" cellspacing là viền với khoảng cách các ô với nhau
+cellpadding khoảng cách giữa đường viền ô đến nội dung bên trong
+-->
+    <div>
+      <table
+        border="1px"
+        cellspacing="0"
+        cellpadding="20px"
+        width="60%"
+        align="center"
+        style="text-align: center"
+      >
+        <thead>
+          <tr>
+            <th colspan="2">Name</th>
+            <th>Type</th>
+            <th>Price</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- dòng 2 có 4 cột tạo  4 cột ra
+        cột 1  đặc biệt chiếm 4 dòng nên phải gắn atribut
+        từ rowspan="4tro di them style=backgroud img"
+        -->
+          <tr>
+            <td rowspan="4">Traditional Coffe pin</td>
+            <td rowspan="2">V coffe Pin</td>
+            <td>Hot</td>
+            <td>60.000</td>
+          </tr>
+          <!-- dòng này b ị trên chiếm nên  chỉ còn 2 cột -->
+          <tr>
+            <td>Cold</td>
+            <td>28</td>
+          </tr>
+          <tr>
+            <td rowspan="2">Milk coffe</td>
+            <td>Hot</td>
+            <td>38.000</td>
+          </tr>
+          <tr>
+            <td>Cold</td>
+            <td>54.000</td>
+          </tr>
+          <!-- dòng thứ 6 Expresso chiếm 4 dòng -->
+          <tr>
+            <td rowspan="4">Expresso</td>
+            <td>American Coffe</td>
+            <td rowspan="3">Hot</td>
+            <td>110.000</td>
+          </tr>
+          <tr>
+            <td>Machiato</td>
+            <td rowspan="2">40.000</td>
+          </tr>
+          <tr>
+            <td>Cappuchino</td>
+          </tr>
+        </tbody>
+      </table>
+      <hr noshade size="5px" width="50%" />
+      <h2 style="color: burlywood; text-align: center">Talk to us</h2>
+
+      <p>
+        <span style="color: red">Reach us via</span> <b>Email</b> :
+        <a href="mailto:days201992@gmail.com">days201992@gmail.com</a> or
+        <b>Hotline</b> :
+        <a href="tel:0866035462">0866035462</a>
+        .<i>Thank You</i> !
+        <!-- liên kết nội id không được số hoặc ký tự đặc biệt 
+    chỉ bắt đầu từ chữ  và đính  số vd : title-1 ...
+<b></b> để in đậm strong thì dùng để google để ý thêm cũng vậy seo= sẻac
+<i></i> để in nghiên 
+Reach us via muốn in đậm riêng 3 chữ dùng <p style="color"=red>Reach us via  </p >
+thì nó sẽ nhảy dòng riêng vì p chiếm 100% dòng đó  
+-->
+        <a href="#title">Back To Top</a>
+      </p>
+      <!-- Div dùng để gom các nội dung chung của html  lại thành 1 trang web -->
+    </div>
+  </body>
+</html>
